@@ -1,0 +1,6 @@
+.header-baner {
+  background: url(../assets/imagenes/fondoBanner1.jpg);
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

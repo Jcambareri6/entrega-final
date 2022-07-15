@@ -1,0 +1,21 @@
+$colores:(
+    $letra: white,
+    $colorfooter: #0a141d,
+   $primario #0d2033
+);
+
+ @mixin propiedades($ancho,$alto,$display,$margen){
+     width: $ancho;
+     height: $alto;
+     display:$display;
+     margin: $margen;
+     
+ }
+ @mixin titulo ($tipoLetra,$mayuscula,$fuente,$letra,$text){
+
+    font-family: $tipoLetra;
+    text-transform: $mayuscula;
+    font-weight: $fuente;
+    color:$letra;
+    text-shadow:$text;
+ }

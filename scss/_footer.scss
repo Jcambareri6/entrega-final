@@ -4,10 +4,10 @@
   }
   
   .pie-pagina .grupo-1 {
-    width: 100%;
+    @include propiedades(100%,auto,grid,auto);
+    
     max-width: 1200px;
-    margin: auto;
-    display: grid;
+   
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     padding: 45px 0px;

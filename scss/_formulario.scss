@@ -1,9 +1,8 @@
 
 .container-form {
-    width: 100%;
+  @include propiedades (100%,auto,grid,auto);
+  
     max-width: 1100px;
-    margin: auto;
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
   
@@ -71,7 +70,10 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+  h1{
+    @extend h1 ;
+
+  }
   .capa {
     width: 100%;
     position: absolute;
