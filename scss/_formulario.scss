@@ -1,4 +1,10 @@
-
+@mixin propiedades($ancho,$alto,$margen){
+  width: $ancho;
+  height: $alto;
+  display:$display;
+  margin: $margen;
+  
+}
 .container-form {
 
   

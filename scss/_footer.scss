@@ -4,8 +4,8 @@
   }
   
   .pie-pagina .grupo-1 {
-    @include propiedades(100%,auto,grid,auto);
-    
+    @include propiedades(100%,auto,auto);
+    display: grid;
     max-width: 1200px;
    
     grid-template-columns: repeat(3, 1fr);
