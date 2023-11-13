@@ -5,4 +5,9 @@ El trabajo especial aborda diversos aspectos fundamentales de desarrollo web, in
 
 Funcionalidades destacadas:
 
-Consumo de API Mockapi: La aplicación hace uso de la API Mockapi para simular el manejo de datos dinámicos. Se realizan peticiones para crear, modificar, eliminar y editar productos, demostrando la integración efectiva de la aplicación con servicios externos.
+Consumo de API Mockapi: La aplicación hace uso de la API Mockapi para simular el manejo de datos dinámicos. Se realizan peticiones para crear, modificar, eliminar y editar productos, demostrando la integración efectiva de la aplicación con servicios externos
+
+Manejo de Eventos: La aplicación implementa un sólido manejo de eventos para mejorar la interactividad del usuario. Se utilizan eventos para capturar acciones del usuario,ofreciendo una experiencia más dinámica y amigable.
+
+Diseño Responsivo: El diseño de la aplicación se adapta a diferentes tamaños de pantalla, asegurando una experiencia de usuario consistente y agradable en dispositivos móviles, tabletas y computadoras de escritorio..
+
